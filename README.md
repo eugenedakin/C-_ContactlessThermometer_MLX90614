@@ -9,3 +9,14 @@ Ensure the I2C communication protocol is enabled on the Raspberry Pi. The below 
 
 
 Installation instructions:
+1) Install Raspberry Pi OS (64-bit)
+2) Open a terminal and type the following commands:
+3) 
+
+
+Use I2Cdetect -y 1 to confirm the MLX90614 is available at I2C hexadecimal address 5A.
+![](https://github.com/eugenedakin/CPP_ContactlessThermometer_MLX90614/blob/main/I2cdetect.png)
+
+Below is the breadboard layout with the Raspberry Pi 4 connecting with I2C to the MLX90614.
+![](https://github.com/eugenedakin/CPP_ContactlessThermometer_MLX90614/blob/main/BreadBoard.png)
+
