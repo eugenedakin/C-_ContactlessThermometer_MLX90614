@@ -1,5 +1,5 @@
 # C++_ContactlessThermometer_MLX90614
-A non-contact thermometer using GY-906 sensor on a MLX90614 board using C++, wxwidgets and the Raspberry Pi GPIO I2C pins.
+A non-contact thermometer using GY-906 sensor on a MLX90614 board using C++, wxwidgets, and the Raspberry Pi GPIO I2C pins.
 
 This C++ program for the Raspberry Pi uses the GY-906 sensor on an MLX90614 module board to detect the object and ambient temperature of an object. This is useful for temperature monitoring and other practical tasks. This was created on 19 Mar 2026. The MLX90614 measures the temperature by detecting infrared raditation (IR), specifically in the far-infrared range. The detected wavelengths are in the range 5.5 to 14 micrometers (um).
 
